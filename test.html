@@ -1,0 +1,19 @@
+
+<html></html>
+<body>
+          <button class="bu" value="EU">123</button>
+          <button class="bu" value="AF">666</button>
+
+</body>
+<script>
+          document.addEventListener('DOMContentLoaded', () => {
+                    const buttons = document.querySelectorAll(".bu");
+                    buttons.forEach(button => {
+                        button.addEventListener('click', () => {
+                            console.log(button.value);
+                        });
+                    });
+                });
+            
+</script>
+</html>
